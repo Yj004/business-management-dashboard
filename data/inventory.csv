@@ -1,0 +1,9 @@
+product_id,product_name,category,current_stock,reorder_level,last_restocked,unit_cost,total_value
+1,Product A,Electronics,52,16,2025-02-17,120,4200
+2,Product B,Electronics,99,15,2024-07-17,80,2960
+3,Product C,Clothing,57,8,2024-06-04,30,1410
+4,Product D,Clothing,95,18,2024-06-29,25,2400
+5,Product E,Home,44,5,2024-05-29,50,1450
+6,Product F,Home,11,14,2024-07-30,70,910
+7,Product G,Food,89,13,2025-02-25,10,460
+8,Product H,Food,77,12,2024-09-03,5,395
