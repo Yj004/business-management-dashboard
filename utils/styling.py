@@ -605,9 +605,16 @@ def create_sidebar():
 def create_footer():
     """Create a footer for the application"""
     st.markdown("""
-    <div class="footer">
-        <p>Business Management Dashboard © 2023 | All data is for demonstration purposes only</p>
-        <p>Version 1.0.0 | Last updated: November 2023</p>
+    <div class="footer" style="margin-top: 50px; padding: 20px; border-top: 1px solid #e9ecef; text-align: center; color: #6c757d; font-size: 0.9rem;">
+        <p style="margin-bottom: 10px;">Business Management Dashboard © 2025 | All data is for demonstration purposes only</p>
+        <p>Version 1.0.0 | Last updated: March 2025 | 
+           <a href="https://www.linkedin.com/in/yashjeet-singh/" target="_blank" style="color: #1E3A8A; text-decoration: none; font-weight: 500;">
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#0077B5" style="vertical-align: middle; margin-right: 4px;">
+               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+             </svg>
+             Connect with Yashjeet Singh
+           </a>
+        </p>
     </div>
     """, unsafe_allow_html=True)
 
